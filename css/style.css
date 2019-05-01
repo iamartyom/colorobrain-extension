@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/Lato/Lato-Regular.ttf) format('woff2');
+}
+
+.main-container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+  	width: 250px;
+  	height: 400px;
+	font-family: 'Lato', sans-serif;
+}
+
+.color {
+  width: 220px;
+  height: 290px;
+  border-radius: 5px;
+}
+
+.answer-container {
+	width: 220px;
+	height: 328px;
+	border-radius: 5px;
+}
+
+.answer {
+	height: 82px;
+}
+
+.btn3d {
+	position: relative;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+
+.btn3d.btn-info {
+	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #348FD2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #39B3D7;
+}
+
+.btn3d.btn-info:active,
+.btn3d.btn-info.active {
+	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #39B3D7;
+}
